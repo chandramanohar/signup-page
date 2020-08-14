@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="for">
+		<!--top bar begins-->
+			<h3 id ="title">
+				<a href = "http://www.rediff.com/"> Home</a></br>
+				<img src="redifflogo1.gif">
+			</h3>
+			</br>
+			<hr/>
+		<!--top bar ends-->
+		<fieldset>
+			<form onsubmit="myFunction()">
+				<table border="0" align="center">
+					<tbody>
+						<tr>
+							<td colspan="3"><h3> Create a Rediffmail account</h3></td>
+						</tr>
+						<tr>
+							<td >Full Name</td>
+							<td><b>:</b></td>
+							<td>
+								<input type ="text" placeholder="Enter your first name & last name" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Choose Rediffmail
+							</td>
+							<td><b>:<b></td>
+							<td><input type= "mail" placeholder="Enter mail"></td>
+						</tr>
+						<tr>
+							<td>
+								Password
+							</td>
+							<td><b>:</b></td>
+							<td><input type= "Password" placeholder="Enter Password"></td>
+						</tr>
+						<tr>
+							<td>
+								Retype Password
+							</td>
+							<td><b>:</b></td>
+							<td><input type= "Password" placeholder="Enter Password Again"></td>
+						</tr>
+						<tr>
+							<td>
+								Alternate Email Address
+							</td>
+							<td><b>:</b></td>
+							<td><input type= "Email" placeholder="Your Email"></td>
+						</tr>
+						<tr>
+							<td>
+							</td>
+							<td><b>:</b></td>
+							<td><input type="checkbox">Click if you don't have an alternate ID</td>
+						</tr>
+						<tr>
+							<td>
+								Mobile No.
+							</td>
+							<td><b>:</b></td>
+							<td><input type= "tel"></td>
+						</tr>
+						<tr>
+							<td>
+								Date of Birth
+							</td>
+							<td><b>:</b></td>
+							<td><input type= "date"></td>
+						</tr>
+						<tr>
+							<td>
+								Gender
+							</td>
+							<td><b>:</b></td>
+							<td><input type= "radio" name="gender">Male
+							<input type= "radio" name="gender"> Female
+							</td>
+						</tr>
+						<tr>
+							<td>
+								I live in &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;country
+							</td>
+							<td><b>:</b></td>
+							<td>
+								<select >
+									<option value="AF">Afghanistan</option>
+									<option value="BD">Bangladesh</option>
+									<option value="IN">India</option>
+									<option value="USA">United States</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;City
+							</td>
+							<td><b>:</b></td>
+							<td>
+								<select >
+									<option >Jalandhar</option>
+									<option >Guntur</option>
+									<option >Kaputhala</option>
+									<option >Vijayawada</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Enter the text abcd
+							</td>
+							<td><b>:</b></td>
+							<td>
+								<input type="text">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3" align= center>
+								<button style="background-color:lightgreen">Create my account >></button> 
+							</td>
+					</tbody>
+				</table>
+			</form>
+		</fieldset>
+		</div>
+		<script>
+			function myFunction() {
+			alert("Account Was Created Successfully");
+			}
+		</script>
+	</body>
+</html>
